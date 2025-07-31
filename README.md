@@ -81,6 +81,18 @@ git clone https://github.com/Danily07/Translumo.git
 ```
   <li>Restore packages and build a solution. <b>binaries_extract.bat</b> will be executed during building, which will automatically download models and python binaries to target output directory.</li>
 </ul>
+<h1>Start</h1>
+<p>After building the solution, you can start the application using one of the following methods:</p>
+<ul>
+  <li><b>Using .NET CLI:</b></li>
+  
+```bash
+dotnet run --project src/Translumo
+```
+  <li><b>Using Visual Studio:</b> Press F5 or click "Start Debugging"</li>
+  <li><b>Using executable:</b> Navigate to <code>src/Translumo/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/</code> and run <code>Translumo.exe</code></li>
+</ul>
+<p><i>Note: The application may require Administrator privileges for Windows OCR functionality.</i></p>
 <h1>Credits</h1>
 <ul>
   <li><a href="https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit">Material Design In XAML Toolkit</a></li>
